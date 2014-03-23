@@ -1,0 +1,11 @@
+# ls aliases
+if [ ! $(uname) = 'Darwin' ]; then
+    alias ls='ls --color'
+fi
+
+alias l='ls'
+alias ll='ls -l -h'
+alias la='ls -a'
+alias llt='ll -t'
+alias lla='ll -a'
+

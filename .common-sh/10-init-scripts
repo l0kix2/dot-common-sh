@@ -1,1 +1,9 @@
+# https://github.com/joelthelion/autojump
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+
+# http://virtualenvwrapper.readthedocs.org/en/latest/
+source /usr/local/bin/virtualenvwrapper.sh
+export WORKON_HOME=~/.virtualenvs
+
+# https://github.com/kennethreitz/autoenv
+source /usr/local/Cellar/autoenv/0.1.0/activate.sh
