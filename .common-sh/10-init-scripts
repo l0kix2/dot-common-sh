@@ -1,5 +1,6 @@
 # https://github.com/joelthelion/autojump
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+# [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+# now through oh-my-zsh
 
 # http://virtualenvwrapper.readthedocs.org/en/latest/
 source `which virtualenvwrapper.sh`
