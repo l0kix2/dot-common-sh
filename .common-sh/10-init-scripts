@@ -2,7 +2,7 @@
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
 # http://virtualenvwrapper.readthedocs.org/en/latest/
-source /usr/local/bin/virtualenvwrapper.sh
+source `which virtualenvwrapper.sh`
 export WORKON_HOME=~/.virtualenvs
 
 # https://github.com/kennethreitz/autoenv
